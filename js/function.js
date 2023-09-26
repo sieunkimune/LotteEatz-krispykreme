@@ -56,6 +56,9 @@ const $shadow = $lightbox.parent();
 $resumeBtn.on('click', function (evt) {
 	evt.preventDefault();
 
+	//주문하기버튼 색
+	$resumeBtn.addClass('on');
+
 	const imgSrc = $(this).attr('href');
 	const imgAlt = $(this).children('img').attr('alt');
 
@@ -68,6 +71,9 @@ $resumeBtn.on('click', function (evt) {
 });
 
 $clse.add($shadow).on('click', function () {
+	//주문하기버튼 색
+	$resumeBtn.removeClass('on');
+
 	$shadow.hide();
 });
 
@@ -78,6 +84,9 @@ $lightbox.on('click', function (evt) {
 //ESC키를 눌렀을 때 닫힘
 $(document).on('keyup', function (evt) {
 	if (evt.which === 27) {
+		//주문하기버튼 색
+		$resumeBtn.removeClass('on');
+
 		$shadow.hide();
 	}
 });

@@ -190,7 +190,7 @@
   color: #fff;
   font-weight: 500;
 }
-#wrap header > .menu > a:hover {
+#wrap header > .menu > a.on, #wrap header > .menu > a:hover {
   background-color: #017a8a;
 }
 #wrap header > .menu.order {
