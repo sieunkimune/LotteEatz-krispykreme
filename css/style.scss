@@ -527,6 +527,13 @@ $sec-color: #d9d9d9;
 					text-align: center;
 					font-size: 32px;
 				}
+				> p {
+					position: absolute;
+					top: 40px;
+					margin-left: 225px;
+					height: 58px;
+					border: 1px solid #999;
+				}
 			}
 			> nav {
 				position: absolute;

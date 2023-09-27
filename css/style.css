@@ -473,6 +473,13 @@
   text-align: center;
   font-size: 32px;
 }
+#wrap > section > .kkcontainer > div > p {
+  position: absolute;
+  top: 40px;
+  margin-left: 225px;
+  height: 58px;
+  border: 1px solid #999;
+}
 #wrap > section > .kkcontainer > nav {
   position: absolute;
   left: 50%;
